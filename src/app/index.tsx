@@ -1,24 +1,16 @@
-import { Text, View } from 'react-native'
-import { colors } from '../styles/colors'
+import { View } from 'react-native'
+import { Welcome } from '@/components/welcome'
 
 export default function Index() {
   return (
     <View
       style={{
         flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
+        padding: 40,
+        gap: 40,
       }}
     >
-      <Text
-        style={{
-          fontSize: 24,
-          fontWeight: 'bold',
-          color: colors.red.base,
-        }}
-      >
-        Hello Nearby
-      </Text>
+      <Welcome />
     </View>
   )
 }
