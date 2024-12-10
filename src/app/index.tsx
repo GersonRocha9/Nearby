@@ -1,4 +1,5 @@
 import { Text, View } from 'react-native'
+import { colors } from '../styles/colors'
 
 export default function Index() {
   return (
@@ -13,6 +14,7 @@ export default function Index() {
         style={{
           fontSize: 24,
           fontWeight: 'bold',
+          color: colors.red.base,
         }}
       >
         Hello Nearby
